@@ -2,7 +2,7 @@
 
 **Personal $DOG Strategy Cockpit for Kraken Power Users**
 
-> Built to make serious $DOG holders on Kraken dangerously intentional with their capital.
+> A local strategy system that helps serious $DOG holders operate with discipline on Kraken.
 
 DOGmm is a sovereign desktop application that turns Kraken into a strategic platform for $DOG — not just a place to trade.
 
@@ -19,7 +19,7 @@ DOGmm changes the game by making **strategy the product**:
 - **Protected HODL** that only moves when the user explicitly unlocks it
 - **Realize rules** with clear profit targets and destinations
 - **Disciplined DCA** (ladder or fixed) with safety pauses on walls and thin liquidity
-- **Hedge ladders** on the upside (30–300% moves)
+- **Hedge** via Kraken Futures (upside ladders between 30–300% moves) or internal allocation
 - **Arbitrage without withdrawal** — using real inventory on Kraken vs DogSwap L1 (Xverse)
 
 Everything is designed around one question:
@@ -36,7 +36,7 @@ DOGmm was built **for** Kraken users who take $DOG seriously:
 - Professional order book visualization with automatic detection of walls ≥ 10M $DOG
 - Accurate USD + sats pricing for $DOG on Kraken
 - Inventory tracking that treats Kraken as a first-class venue alongside self-custody L1
-- Architecture inspired by the best community patterns (dog-intel) but evolved into a full strategy system
+- Clean architecture focused on strategy validation and real holdings awareness
 
 The result: users get Kraken-grade market microstructure data inside a tool that actually helps them **allocate** instead of just react.
 
@@ -60,7 +60,7 @@ This is exactly the kind of sophisticated, low-friction strategy that advanced K
 1. **Mandatory Strategy Wizard** (9 steps)
    - Total capital + strict 100% bucket validation (HODL / Realize / Trade)
    - DCA (Ladder or Fixed) with reference price choice and safety rules
-   - Upside hedge ladders + stop rules
+   - Hedge configuration (Kraken Futures upside ladders + stop rules)
    - Full inventory declaration (Kraken + Xverse + DogSwap + External)
 
 2. **Live Portfolio Dashboard**
@@ -75,15 +75,17 @@ This is exactly the kind of sophisticated, low-friction strategy that advanced K
 
 ---
 
-## Built for the Kraken Ecosystem
+## Built for Kraken $DOG Holders
 
-This project exists because of the incredible foundation laid by the $DOG community and Kraken’s own tooling efforts:
+DOGmm was created for traders and holders who use Kraken as their primary venue for $DOG and want to operate with institutional-grade discipline on a retail platform.
 
-- Direct inspiration from [ra1nb93/dog-intel](https://github.com/ra1nb93/dog-intel)
-- Heavy use of Kraken public market data patterns
-- Designed to increase the quality and intentionality of $DOG activity on Kraken
+It combines:
 
-DOGmm is a love letter to Kraken power users who want to treat $DOG like serious capital — not just another meme to ape.
+- Kraken’s native market data (real-time pricing and full order book depth)
+- Hedge execution capabilities via Kraken Futures
+- Inventory-aware decision making across Kraken and Bitcoin L1
+
+The result is a tool that helps users move from reactive trading to structured capital management — while staying entirely local and sovereign.
 
 ---
 
@@ -109,13 +111,11 @@ The “Ask the Agent” natural language interface and deeper Kraken authenticat
 
 ---
 
-## For the Kraken Agent Zero / $DOG Community
+## For the Kraken $DOG Community
 
-If you’re a serious $DOG holder on Kraken who wants to stop gambling and start *managing* capital with discipline, DOGmm is for you.
+DOGmm is designed for anyone who holds meaningful size in $DOG on Kraken and wants a structured, repeatable process for capital allocation, protection, and deployment.
 
-It’s the tool I wish existed when I started accumulating. Now it does.
-
-Built in public. Built with love for the Army. Built to win on Kraken.
+If your goal is to treat $DOG as a strategic asset rather than a speculative trade, this tool was built for you.
 
 ---
 
